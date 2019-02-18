@@ -1,4 +1,4 @@
-#该文件创建了一个flaskapp，用于构建web框架
+#create a flask framework to build the webpage
 from flask import Flask, render_template, request
 from scipy.misc import imsave, imread, imresize
 import numpy as np
@@ -11,7 +11,7 @@ import os
 #sys.path.append(os.path.abspath("."))
 from load import *
 
-###cassandra 相关的包
+###cassandra  
 import logging
 import time
 import socket
@@ -59,7 +59,7 @@ except Exception as e:
 #############
 
 
-#model，graph 见load.py
+#model，graph  in load.py
 app = Flask(__name__)
 global model, graph
 model, graph = init()
@@ -70,18 +70,18 @@ def index():
 
 @app.route('/predict/', methods=['GET','POST'])
 def predict():
-    #获取时间
+    #get the time 
     uploadtime=time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
     
-    # 通过画布获取用户画的图像
+    # get the user input image
     parseImage(request.get_data())
 
-    # 将图像进行转换
+    # convert the image
     x = imread('output.png', mode='L')
     x = np.invert(x)
     x = imresize(x,(28,28))
 
-    #调用模型
+    # use the model 
     x = x.reshape(1,28,28,1)
     with graph.as_default():
         out = model.predict(x)
@@ -95,7 +95,7 @@ def predict():
         return response
     
 def parseImage(imgData):
-    # 将画布转换为out.png输出
+    # turn the image to the output
     imgstr = re.search(b'base64,(.*)', imgData).group(1)
     with open('output.png','wb') as output:
         output.write(base64.decodebytes(imgstr))
