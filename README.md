@@ -1,4 +1,4 @@
-## MNIST Flask
+## MNIST Project
 ![image](https://github.com/adi0111/Mnist/blob/master/ezgif-4-97402aa376b6.gif)
 ## SoftMax
 ![image](http://wiki.jikexueyuan.com/project/tensorflow-zh/images/softmax-regression-scalargraph.png)
