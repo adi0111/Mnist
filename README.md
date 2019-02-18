@@ -1,5 +1,5 @@
 ## MNIST Flask
-![image](https://github.com/johnli-zr/mnist-flask/blob/master/ezgif-4-97402aa376b6.gif)
+![image](https://github.com/adi0111/Mnist/blob/master/ezgif-4-97402aa376b6.gif)
 ### 运行方式：
 #### 一、运行app.py
  1.本地运行
