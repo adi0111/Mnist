@@ -1,5 +1,7 @@
 ## MNIST Flask
 ![image](https://github.com/adi0111/Mnist/blob/master/ezgif-4-97402aa376b6.gif)
+### Introduction: 
+In this project, it use the keras to build the model for the Mnist and use the softmax function to predict the data from the input image. And in the next steps, it connect to the Cassandra database to keep the data and later we can check the data in the Cassandra database. 
 ### Steps：
 #### 1、run app.py
  1.Local run
@@ -40,7 +42,7 @@ docker run -it --link some-cassandra:cassandra --rm cassandra cqlsh cassandra
 
 
 
-### 三、Check the data in the Cassandra Container  
+### 3、Check the data in the Cassandra Container  
 
 use mnist_database
 
