@@ -10,7 +10,7 @@ In this project, it use the keras to build the model for the Mnist and use the s
 #### 1、run app.py
 1.Local run
  
-   a. install the requirements：
+   a. Install the requirements：
  
        sudo pip install -r requirements.txt
  
@@ -20,26 +20,26 @@ In this project, it use the keras to build the model for the Mnist and use the s
  
 2. Use Docker
 
- a. install the Docker，Docker Tutorial：https://docs.docker.com/install/overview/
+ a. Install the Docker，Docker Tutorial：https://docs.docker.com/install/overview/
 
- b. use docker create image (change Image_name to the name you like)
+ b. Use docker create image (change Image_name to the name you like)
 
        docker build -t IMAGE_NAME .
 
- c. run the image
+ c. Run the image
 
        docker run -d -p 4000:5000 IMAGE_NAME
 
 
 ### 2、conncet to the Cassandra
 
- a. run the Cassandra, Cassandra Tutorial ：https://hub.docker.com/_/cassandra/
+ a. Run the Cassandra, Cassandra Tutorial ：https://hub.docker.com/_/cassandra/
 
 
 
        docker run --name some-cassandra -p 9042:9042 -d cassandra:latest
 
- b. conncet the Cassandra contanier you create above with the docker container and romove
+ b. Conncet the Cassandra contanier you create above with the docker container and romove
 
        docker run -it --link some-cassandra:cassandra --rm cassandra cqlsh cassandra
 
