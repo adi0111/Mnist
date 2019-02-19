@@ -33,7 +33,7 @@ In this project, it use the keras to build the model for the Mnist and use the s
 
 ### 2、conncet to the Cassandra
 
- a. run the Cassandra（jump：https://hub.docker.com/_/cassandra/
+ a. run the Cassandra（Cassandra Tutorial ：https://hub.docker.com/_/cassandra/
 
 
 
