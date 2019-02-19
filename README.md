@@ -1,5 +1,5 @@
 ## MNIST Project
-![image](https://github.com/adi0111/Mnist/blob/master/ezgif-4-97402aa376b6.gif)
+![image](https://cdn-images-1.medium.com/max/1600/1*XdCMCaHPt-pqtEibUfAnNw.png)
 ## SoftMax
 ![image](http://wiki.jikexueyuan.com/project/tensorflow-zh/images/softmax-regression-scalargraph.png)
 ![image](http://wiki.jikexueyuan.com/project/tensorflow-zh/images/softmax-regression-vectorequation.png)
@@ -33,7 +33,7 @@ In this project, it use the keras to build the model for the Mnist and use the s
 
 ### 2、conncet to the Cassandra
 
- a. run the Cassandra（Cassandra Tutorial ：https://hub.docker.com/_/cassandra/
+ a. run the Cassandra, Cassandra Tutorial ：https://hub.docker.com/_/cassandra/
 
 
 
