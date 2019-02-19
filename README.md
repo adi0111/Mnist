@@ -3,6 +3,7 @@
 ## SoftMax
 ![image](http://wiki.jikexueyuan.com/project/tensorflow-zh/images/softmax-regression-scalargraph.png)
 ![image](http://wiki.jikexueyuan.com/project/tensorflow-zh/images/softmax-regression-vectorequation.png)
+More details can be accessed in the project report
 ### Introduction: 
 In this project, it use the keras to build the model for the Mnist and use the softmax function to train the model, so it can predict output from the user input handwrite image. And in the next steps, it connects to the Cassandra database to keep the data and later we can check the data in the Cassandra database. 
 ### Steps：
