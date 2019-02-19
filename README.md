@@ -9,13 +9,13 @@ In this project, it use the keras to build the model for the Mnist and use the s
 #### 1、run app.py
 1.Local run
  
-     a. install the requirements：
+   a. install the requirements：
  
-          sudo pip install -r requirements.txt
+       sudo pip install -r requirements.txt
  
-     b.Run：
+   b.Run：
  
-          python app.py
+       python app.py
  
 2. Use Docker
 
